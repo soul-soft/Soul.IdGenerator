@@ -65,12 +65,12 @@ namespace Soul.IdGenerator
                 var p3 = number;
                 return p1 | p2 | p3;
             } while (true);
-           
+
         }
 
         public static long Generate(long mac)
         {
-            return Generate(mac);
+            return Generate(mac, 1970);
         }
     }
 }

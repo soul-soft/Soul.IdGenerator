@@ -16,7 +16,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Content Include="soul.png" />
+		<None Update="soul.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
 	</ItemGroup>
 
 </Project>

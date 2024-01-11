@@ -13,6 +13,7 @@
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<Company>Soul</Company>
 		<Authors>Soul</Authors>
+		<Description>Snowflake</Description>
 	</PropertyGroup>
 
 	<ItemGroup>

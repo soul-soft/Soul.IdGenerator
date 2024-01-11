@@ -1,13 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>netstandard2.1</TargetFramework>
-		<Nullable>enable</Nullable>
+		<TargetFramework>netstandard2.0</TargetFramework>	
 		<Copyright>MIT</Copyright>
 		<PackageTags>Snowflake;IdGenerator</PackageTags>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
+		<NoWarn>1701;1702;1591</NoWarn>
 		<RepositoryUrl>https://github.com/soul-au/Soul.IdGenerator</RepositoryUrl>
 		<Description>Snowflake IdGenerator</Description>
+		<PackageIcon>soul.png</PackageIcon>
+		<RepositoryType>git</RepositoryType>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<Company>Soul</Company>
+		<Authors>Soul</Authors>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="soul.png" />
+	</ItemGroup>
 
 </Project>
